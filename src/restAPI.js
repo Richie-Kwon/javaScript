@@ -4,6 +4,7 @@
 
 const http = require('http')
 
+// no database
 /** post
  * post
 GET/ posts
@@ -29,7 +30,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.end('Hello!')
 })
-
+ 
 const PORT = 4000
 
 server.listen(PORT, () => {
