@@ -5,6 +5,24 @@
 const http = require('http')
 
 // no database
+
+ /**
+ * @typedef Post
+ * @property {string} id
+ * @property {string} title
+ * @property {string} content
+ */   
+    
+ /** @type {Post} */
+ const examplePost = {
+   id :38888,
+   title:'abc',
+   content: 'xyz',
+ }
+
+ console.log(examplePost)
+
+
 /** post
  * post
 GET/ posts
