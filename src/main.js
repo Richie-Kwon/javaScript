@@ -1,4 +1,4 @@
-// @ts-check
+ 
 // formatting >> prettier
 // console.log('hello world')
 
@@ -17,3 +17,4 @@ const yera = 8
 const result = Math.log(yera)
 console.log(result)
 console.log(someString)
+      

@@ -30,3 +30,6 @@ npm install --save-dev eslint-plugin-node
 npm install --save-dev typescript
 
 npm install --save-dev @types/node
+
+// Error check under source folder
+./node_modules/.bin/eslint src/**/*
