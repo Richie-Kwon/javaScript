@@ -33,3 +33,6 @@ npm install --save-dev @types/node
 
 // Error check under source folder
 ./node_modules/.bin/eslint src/**/*
+
+yarn add -D eslint
+yarn remove eslint

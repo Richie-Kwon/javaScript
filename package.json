@@ -5,7 +5,8 @@
   "main": "restAPI.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "node src/restAPI.js"
+    "debug": "node src/restAPI.js",
+    "lint": "eslint src/**/*"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "decamelize": "^6.0.0",
     "nodemon": "^2.0.14"
   }
 }
