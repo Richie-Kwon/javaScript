@@ -1,7 +1,7 @@
-const fs = require('fs')
+// const fs = require('fs')
 
-const stream = fs.createReadStream('test')
+// const stream = fs.createReadStream('test')
 
-stream.pipe(process.stdout) 
+// stream.pipe(process.stdout) 
 
-// console.log(stream)    
+// console.log(stream)       

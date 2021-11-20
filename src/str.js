@@ -1,13 +1,16 @@
  // @ts-check
 
-const { preProcessFile } = require("typescript")
+// const { preProcessFile } = require("typescript")
 
  
- console.log('__dirname', __dirname)
- console.log('__filename', __filename)
+//  console.log('__dirname', __dirname)
+//  console.log('__filename', __filename)
 
-process.stdin.setEncoding('utf-8')
+// process.stdin.setEncoding('utf-8')
 
-process.stdin.on('data', (data)=>{console.log(data, data.length)}) 
+// process.stdin.on('data', (data)=>{console.log(data, data.length)}) 
 
-process.exit()
+// process.exit()
+
+console.log(process.argv)
+
