@@ -8,4 +8,6 @@ console.log(result)
            
 const buf = Buffer.from([97,98,99,100,101])
 
-console.log(buf)
+console.log(buf)       
+
+console.log(Buffer.isBuffer(buf))
